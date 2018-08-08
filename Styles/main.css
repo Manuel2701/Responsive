@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: aqua;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+nav{
+    width: 100%;
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+nav ul li {
+    margin-left: 30px;
+}
+nav ul li a {
+    color: #4f607c;
+}
+.logo figure span {
+    font-size: 20px;
+    font-weight: 900;
+}
+.logo figure figcaption {
+    font-size: 14px;
+    font-weight: 600;
+    color: #999;
+}
+.logo figure > div {
+    display: flex;
+    align-items: center;
+}
+.logo figure > div i {
+    margin-right: 10px;
+    color: #8237fe;
+}
+section.one {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+.s-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s-card div {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 50px;
+    background: #000;
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px #ccc;
+}
+.s-card h2 {
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 900;
+}
+.s-card h3 {
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #999;
+} 
+.s-card p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+#activator {
+    padding: 20px;
+}
+.title2{
+    width: 100%;
+    padding: 0 115px;
+    display: inline-flex;
+}
+.title2 h3{
+    margin: 0 0 0 690px;
+    text-align: center;
+}
+.title2 div{
+    margin: 0 0 0 83px;
+}
+
+.cnt article{
+    width: 100%;
+    display: inline-flex;
+}
+.cnt article div{
+    margin: 20px 74px;
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    position: relative;
+}
+.cnt article div aside:first-child{
+    height: 32px;
+    position: absolute;
+    display: inline-flex;
+}
+.cnt article div aside:first-child h3{
+    margin: 11px 0 0 205px;
+    color: #ffffff;
+    font-size: 15px;
+    display: inline-block;
+}
+.cnt article div aside:nth-child(2){
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    color: #ffffff;
+    top: 65px;
+}
+.cnt article div aside:nth-child(3){
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: inline-flex;
+}
+.cnt article div aside:nth-child(3) h2{
+    color: #ffffff;
+    margin: 10px;
+    font-size: 15px;
+}
+.cnt article div aside:nth-child(3) h3{
+    color: #ffffff;
+    margin: 11px 0 0 105px;
+    font-size: 15px;
+}
+
+
+footer{
+    width: 100%;
+}
+footer div:first-child{
+    display: inline-flex;
+}
+footer div:first-child div:first-child{
+    width: 300px;
+    height: 2px;
+    background-color: black; 
+    margin: 80px 0 0 200px;
+}
+footer div:first-child div:last-child{
+    width: 300px;
+    height: 2px;
+    border-bottom:solid #000 2px;
+    margin: 80px 0 0 100px;
+}
+footer div:first-child aside{
+    margin: 50px 0 0 100px; 
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+footer section{
+    display: inline-flex;
+    width: 100%;
+}
+footer section div:first-child{
+    width: 300px;
+    height: 200px;
+    margin: 50px 0 0 200px;
+    display: inline-block;
+    text-align: center;
+    font-size: 10px;
+}
+footer section div:first-child p:nth-child(2) ,footer section div:last-child p:nth-child(2){
+    margin: 30px 0 ;
+}
+footer section div:nth-child(2){
+    width: 376.09px;
+    height: 200px;
+    margin: 50px 0 ;
+    display: block;
+}
+footer section div:nth-child(2) aside i{
+    margin: 0 0 0 70px;
+}
+footer section div:nth-child(2) div{
+    width: 2px;
+    height: 70px;
+    border-left: solid #000 2px;
+    margin: 30px 0 0 189px; 
+}
+footer section div:nth-child(2) p {
+    margin: 30px 0 0 67px;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer section div:nth-child(3){
+    width: 300px;
+    height: 200px;
+    margin: 50px 0;
+    display: inline-block;
+    font-size: 10px;
+    text-align: center;
+}
+footer div:last-child{
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+footer div:last-child input:first-child{
+    width: 300px;
+    height: 50px;
+    border: solid #000 2px;
+    text-align: center;
+}
+footer div:last-child input:last-child{
+    width: 300px;
+    height: 50px;
+    border-left: solid #000 2px;
+    border-bottom: solid #000 2px;
+    border-right: solid #000 2px;
+    text-align: center;
+    background: #ffffff;
+}
